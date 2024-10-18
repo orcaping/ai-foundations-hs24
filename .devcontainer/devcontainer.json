@@ -1,0 +1,26 @@
+{
+    "name": "AI Foundations",
+    "image": "aifoundation-dev:1.1",
+    "workspaceFolder": "/exercises",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",       // Python support in VSCode
+          "ms-python.vscode-pylance", // Python IntelliSense and code navigation
+          "ms-toolsai.jupyter"      // Jupyter notebook support
+        ],
+        "settings": {
+          "extensions.autoUpdate": true,
+          "terminal.integrated.shell.linux": "/bin/bash"
+        }
+      }
+    },
+
+
+
+    "mounts": [
+      "source=/Users/taaegya1/_code/ost/ai-foundations-hs24/exercises,target=/exercises,type=bind"
+    ],
+    "remoteUser": "root"
+  }
+  
